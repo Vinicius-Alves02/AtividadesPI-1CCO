@@ -1,0 +1,28 @@
+.bodyA{
+    background-color: #b1b1b1;
+}
+.divB{
+    background-color: white;
+    height: 500px;
+    width: 50vw;
+    border: dotted;
+    border-color: black;
+    border-width: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.divC{
+    background-color: yellow;
+    height: 50px;
+    width: 30%;
+}
+.divD{
+    background-color: rgb(230, 126, 0);
+    color: white;
+    font-weight: bold; 
+    /*Coloquei BOLD para dar um destaque melhor no texto, já que no item E5) O elemento deverá conter algum texto" - A frase está em Bold no moodle*/
+    font-size: 30px;
+    padding: 50px;
+    margin: 50px;
+}
