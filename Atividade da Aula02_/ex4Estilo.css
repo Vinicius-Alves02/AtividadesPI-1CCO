@@ -2,9 +2,7 @@
     background-color: #915C5C;
     width: 75%;
     height: 250px;
-    border: solid;
-    border-color: black;
-    border-width: 10px;
+    border: 10px solid black;
     display: flex;
     justify-content: center;
 }
@@ -12,9 +10,7 @@
     background-color: white;
     width: 80%;
     height: 60%;
-    border: solid;
-    border-color: #060758;
-    border-width: 10px;
+    border: 10px solid #060758;
     margin: auto;
 }
 .p1{
@@ -69,4 +65,3 @@
     width: 30%;
     height: 35px;
 }
-
