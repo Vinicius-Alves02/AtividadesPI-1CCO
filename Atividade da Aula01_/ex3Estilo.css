@@ -1,0 +1,28 @@
+.divA{
+    background-color: #66512a;
+    width: 400px;
+    height: 400px;
+}
+.divB{
+    background-color: #86dd8a;
+    width: 200px; 
+    height: 200px;
+}
+.p1{
+    color:rgb(0, 4, 219);
+    background-color: rgb(212, 151, 151);
+    font-size: 40px;
+    font-family: Impact;
+    font-weight: bold;
+
+}
+.divD{
+    width: 50%; 
+    height: 50vh;
+    background-color: rgb(92, 1, 128);
+}
+.divE{
+    width: 75vw; 
+    height: 50%; 
+    background-color: rgb(10, 95, 21);
+}
