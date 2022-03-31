@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    background-color: black;
+    font-family: monospace;
+}
+.header {
+    border-bottom: 3px solid #5D5CE3;
+}
+.conteiner{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.header .conteiner{
+    justify-content: space-between;
+}
+.header ul #aqui{
+    font-weight: 1000;
+}
+.titulo{
+    color: aqua;   
+    width: fit-content;
+    font-weight: 500;
+
+}
+.navBar{
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    padding: 0;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+/* Fim do Cabeçalho */
+
+/* Inicio do Banner */
+.banner{
+    background-image: url('imgs/bg-jelly-fish-para-home.png');
+    height: 500px;
+    color: #ffffff;
+    display: flex;
+    
+}
+.banner .conteiner p span{
+    font-weight: 1000;
+}
+.banner .conteiner{
+    justify-content: center;
+}
+.banner .conteiner p{
+    width: 20%;
+    font-size: 36px;
+}
+
+/* Fim do banner */
+
+/* Inicio do Social */
+ .social {
+     background-color: #ffffff;
+     display: flex;
+     
+ }
+.social .conteiner .boxes .box img{
+    width: 170px;
+}
+.social .conteiner .boxes {
+    display: flex;
+}
+.box{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer{
+    background-color: #5D5CE3;
+    height: 100px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+}
+.footer .conteiner{
+    justify-content: center;
+}
+/* Tela de Login */
+
+.banner .conteiner .card {
+    color: blueviolet;
+    background-color: #ffffff;
+    height:  400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4%;
+}
+.card h1 {
+    font-size: 30px;
+}
+.card h4 {
+    font-size: 16px;
+}
+.card input {
+    text-align: center;
+    border: 2px solid blueviolet;
+    padding: 10px;
+}
+.card button{
+    background-color: blueviolet;
+    margin-top: 25px;
+    font-size: 20px;
+    height: 30px;
+    width: 100px;
+    color: #ffffff;
+    font-family: monospace;
+    font-weight: bold;
+    border-radius: 4px;
+}
+#rodape{
+    height: 200px;
+}
+.banner .conteiner .card2 {
+    color: blueviolet;
+    background-color: #ffffff;
+    height:  400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4%;
+}
+.card2 button{
+    background-color: blueviolet;
+    margin-top: 10px;
+    font-size: 20px;
+    height: 30px;
+    width: 100px;
+    color: #ffffff;
+    font-family: monospace;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.card2 input {
+    text-align: center;
+    border: 2px solid blueviolet;
+    padding: 2px;
+}
+
+
